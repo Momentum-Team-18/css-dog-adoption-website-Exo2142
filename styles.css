@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
+/* Standard rules -------------------- */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/* Header--------------------------*/
+header {
+    background-color: #004175;
+    color: white;
+    font-family: Oswald;
+    border: solid #89DEEF
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color:#89DEEF;
+}
+
+.branding {
+    padding-left: 10px;
+}
+
+.navigation {
+    text-align: right;
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+    color:white; 
+    word-spacing: 0.5em;
+    
+}
+
+
+
+/* Main Page------------------------------ */
+#homepageText {
+    text-align: left;
+    padding: 20px 100px;
+    font-family: Oswald;
+}
+
+.hero img{
+  width:auto;
+  height:auto;
+  max-height: 750px;
+  max-width: 750px;
+  align-items: center;
+}
+
+
+/* Adoption Page-------------------------*/
+.doglist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pupper {
+    max-width: 300px;
+    max-height: 400px;
+flex-basis: 33%;
+  margin: 2px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.pupper img{
+    width: 200px;
+    height: 155px;
+    padding: 5px;
+}
+
+.traits {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pupper p{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #89DEEF;
+    border-radius: 20px;
+}
+
+
+/* Footer ---------------------------------*/
+.footlink {
+    background-color: #A6A9F0;
+    position:relative;
+    display: inline-block;
+}
+
+.footlink img {
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    opacity: 0.4;
+}
+
+
+.footlink a:nth-child(2) {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    transform: translate(0, -50%);
+    text-align: center;
+}
