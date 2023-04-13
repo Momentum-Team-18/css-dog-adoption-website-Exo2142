@@ -87,7 +87,7 @@ header a:hover {
 }
 
 .pupper {
-  margin: 2px;
+  margin: 4px;
   border: 1px solid grey;
   border-radius: 20px;
   text-align: center;
@@ -125,23 +125,36 @@ header a:hover {
 
 #email, #phoneNum, #address {
     padding-left: 20px;
+    margin-bottom: -12px;
 }
 
 #email a, #phoneNum a{
     padding-left: 5px;
 }
+.dates {
+    margin: 40px 0;
+}
 
-.dates h3, p{
-    display: inline-block;
+.date {
+    display: flex;
+    max-width: 200px;
+    margin-bottom: -30px;
+    margin-top: -20px;
+    justify-content: space-between;
+  
+}
+.date p {
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 4px;
+ 
 }
 
 .dates h3 {
     text-decoration: underline;
 }
 
-.dates p {
-    padding-left: 10px;
-}
+
 
 /* Footer ---------------------------------*/
 .footlink {
